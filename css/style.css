@@ -14,14 +14,16 @@
 
  header
  {
-     height: 80px;
+     height: 65px;
  }
  .title{
-     display: inline;
+     display: inline-block;
+     vertical-align: middle;
  }
 
  .logo{
      margin: 5px 10px 10px 20px;
+     vertical-align: middle;
  }
  .contenitore-logo{
     height: 50px;
@@ -30,6 +32,7 @@
  .contenitore{
      background-color: #f6f8f9;
      height: 1000px;
+     padding: 40px;
  }
 
  .contenitore-list{
@@ -37,7 +40,88 @@
      margin: auto;
      background-color: white;
      height: 750px;
-     position: relative;
      top: 50px;
-    
  }
+
+ hr{
+     color: #f6f8f9;
+ }
+
+ .contenitore-button{
+     height: 50px;
+     margin-bottom: 2px;
+ }
+
+ .button-add{
+     margin-top: 20px;
+     padding: 3px;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .task{
+     background-color: #47adf1;
+     color: white;
+     margin-left: 20px;
+     }
+
+.section{
+    background-color: white;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+
+.contenitore-elenco{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+
+}
+
+.linea-gray{
+    height: 2px;
+    background-color:#f6f8f9 ;
+}
+
+.title-list{
+    margin-top: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow{
+    font-size: small;
+    vertical-align: middle;
+}
+
+.etichetta{
+    color: white;
+    font-size: 65%;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.list-item{
+    margin-top: 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight:600;
+}
+
+.editorial{
+    background-color: #47adf1;
+}
+
+ul{
+    font-family:'Roboto', sans-serif; 
+    list-style: none;
+}
+
+.spunta{
+    font-size: small;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding: 1px;
+}
