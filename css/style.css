@@ -62,7 +62,7 @@
  .task{
      background-color: #47adf1;
      color: white;
-     margin-left: 20px;
+     margin-left: 90px;
      }
 
 .section{
@@ -135,10 +135,19 @@ ul{
     background-color: #f29e33;
 }
 
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
+}
+
 .cross{
     color: red;
     border:  red;
 }
+
 
 .simbolo{
     font-size: small;
@@ -146,3 +155,4 @@ ul{
     padding: 1px;
     border: 1px solid
 }
+
