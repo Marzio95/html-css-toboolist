@@ -104,8 +104,7 @@
 }
 
 .list-item{
-    margin-top: 20px;
-    font-family:'Roboto', sans-serif;
+    line-height: 50px;
     font-weight:600;
 }
 
@@ -114,7 +113,6 @@
 }
 
 ul{
-    font-family:'Roboto', sans-serif; 
     list-style: none;
 }
 
